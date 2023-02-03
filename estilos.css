@@ -1,0 +1,62 @@
+
+
+.SupraConteiner{
+    display: grid;
+ 
+    grid-template-columns: 20% 80%;
+    height: 700px;
+}
+@media screen and (max-width: 600px) {
+    .SupraConteiner{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        height: 700px;
+    }
+  
+}
+p,h1,h2,h3,h4,li
+{
+    font-family: 'Roboto Slab', serif;
+}
+h2
+{
+    background-color: red;
+    padding: 3px;
+    margin-left:35px;
+    margin-right: 20px;
+}
+body
+{
+    background: #ecf0f1;
+}
+#colum1
+{
+    
+    background-color: rgba(20, 160, 62, 0.808);
+}
+
+.colum:hover
+{
+    
+    border: solid yellow ;
+}
+h4,ul
+{
+  margin-left: 40px;  
+}
+h3,.parrafoColum2,button
+{
+    margin-left: 20px;
+}
+p,h1,h2,img{
+    margin-left: 7px;
+}
+
+.circular--square {
+    border-radius: 50%;
+  }
+  .icono
+  {
+    color:rgb(72, 72, 182) ;
+    font-size: 30px;
+  }
