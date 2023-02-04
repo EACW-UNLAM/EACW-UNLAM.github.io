@@ -1,6 +1,6 @@
-
+const ULTIMOTRABAJO=3;
 var contadorObjetivos=0;
-var llego=0;
+var llego=false;
 var contadorExperiencia=0;
 document.getElementById('sig_objetivos').addEventListener('click',function() {
    if(contadorObjetivos==0)
@@ -18,7 +18,7 @@ document.getElementById('sig_objetivos').addEventListener('click',function() {
 
 });
 document.getElementById('sig_experiencia').addEventListener('click',function() {
-   if(llego==0)
+   if(!llego)
       contadorExperiencia++;
    else
       contadorExperiencia--;
@@ -40,10 +40,10 @@ function remplazo(contador)
          case 2:
             document.getElementById("experiencia").innerHTML='UBERTRACK <br><br> Puesto: Desarrollador .NET <br><br> Julio 2014-Diciembre 2016</p>';
             break;
-         case 3:
+         case ULTIMOTRABAJO:
             document.getElementById("experiencia").innerHTML='Minder S.A. <br><br> Puesto: Analista programador<br><br> Noviembre 2011-Febrero de 2014</p>';
             document.getElementById("sig_experiencia").innerHTML="Anterior";
-            llego=1;
+            llego=true;
             break;
    }
 }
