@@ -32,7 +32,7 @@ function remplazo(contador)
          case 0:
             document.getElementById("experiencia").innerHTML="JPMorgan Chase & Co. <br><br>Puesto: Software engineer<br><br>Enero 2019-Actualidad";
             document.getElementById("sig_experiencia").innerHTML="Siguiente";
-            llego=0;
+            llego=false;
             break;
          case 1:
             document.getElementById("experiencia").innerHTML='Globant <br><br> Puesto: Desarrollador .NET y react<br><br> Mayo 2017-Enero 2019</p>';
