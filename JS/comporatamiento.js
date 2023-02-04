@@ -38,7 +38,7 @@ function remplazo(contador)
             document.getElementById("experiencia").innerHTML='Globant <br><br> Puesto: Desarrollador .NET y react<br><br> Mayo 2017-Enero 2019</p>';
             break;
          case 2:
-            document.getElementById("experiencia").innerHTML='UBERTRACK <br><br> Puesto: Desarrollador .NET <br><br> Julio 2014-Diciembre 2016</p>';
+            document.getElementById("experiencia").innerHTML='URBETRACK <br><br> Puesto: Desarrollador .NET <br><br> Julio 2014-Diciembre 2016</p>';
             break;
          case ULTIMOTRABAJO:
             document.getElementById("experiencia").innerHTML='Minder S.A. <br><br> Puesto: Analista programador<br><br> Noviembre 2011-Febrero de 2014</p>';
